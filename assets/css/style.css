@@ -1,0 +1,72 @@
+body {
+    background: url(../images/sports2.jpg);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: silver;
+    font-weight: 900;
+    margin: 10px auto;
+}
+
+#timer-display {
+    margin: 10px auto;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.start {
+    border-radius: 2px;
+    padding: 5px 15px;
+    margin: 10px auto;
+}
+
+.question-block {
+    display: none;
+    width: 960px;
+    text-align: left;
+    background-color: black;
+    border: 2px silver;
+    padding: 10px;
+}
+
+.question {
+    margin: 10px auto;
+}
+
+.ol {
+    list-style: none;
+}
+
+.li {
+    padding-left: 20px;
+}
+
+.done {
+   display: none;
+   padding: 5px 15px;
+   margin: 10px auto;
+}
+
+.results {
+    font-size: 20px;
+    display: none;
+}
+
+#correct, #incorrect, #unanswered {
+    margin: 10px auto;
+
+}
+
+.reset {
+    
+    display: none;
+    padding: 5px 15px;
+    margin: 10px auto;
+
+}
